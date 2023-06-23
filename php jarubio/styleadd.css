@@ -1,0 +1,50 @@
+*{
+	font-family: sans-serif, serif;
+	color: #fff;
+}
+body{
+	background-color: #000;
+}
+.form{
+	margin-top: 2%;
+	margin-left: 33%;
+	width: 35%;
+	height: 80%;
+	border: 3px solid #111;
+	background-color: #111;
+	border-radius: 7px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.form input{
+	margin-top: 1rem;
+	padding: 10px;
+	justify-content: center;
+	background-color: #1A2;
+	border: none;
+	transition: all .2s;
+}
+.form input::placeholder{
+	color: white;
+}
+.form input:hover{
+	background-color: #162; 
+}
+.form input:focus{
+	outline: none;
+	background-color: #162;
+}
+
+a{
+	margin-top: 5%;
+	margin-left: 80%;
+	text-decoration: none;
+	color: #1A2;
+	transition: all .2s;
+}
+a:hover{
+	color: #162;
+}

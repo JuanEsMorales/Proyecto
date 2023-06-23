@@ -1,0 +1,86 @@
+*{
+	font-family: sans-serif;
+	color: #fff;
+}
+body{
+	background-color: #000;
+}
+.foot{
+	width: 60%;
+	height: 80%;
+	margin-left: 20%;
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.foot a:first-child{
+	margin-top: 1rem;
+	width: 150px;
+	height: 50px;
+	border: 1px solid #1A2;
+	border-radius: 7px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1A2;
+	opacity: 0;
+	animation: a 2s forwards;
+}
+.se{
+	margin-top: 1rem;
+	width: 150px;
+	height: 50px;
+	border: 1px solid #1A2;
+	border-radius: 7px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1A2;
+	opacity: 0;
+	animation: se 2s forwards .5s;
+}
+.te{
+	margin-top: 1rem;
+	width: 150px;
+	height: 50px;
+	border: 1px solid #1A2;
+	border-radius: 7px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1A2;
+	opacity: 0;
+	animation: te 2s forwards 1s;
+}
+.foot a{
+	text-decoration: none;
+	color: #fff;
+	transition: .5s;
+}
+.foot a:hover{
+	width: 180px;
+	height: 80px;
+	background-color: #162;
+}
+
+@keyframes a{
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes se{
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes te{
+	100%{
+		opacity: 1;
+	}
+}
